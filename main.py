@@ -70,4 +70,4 @@ def index():
     return f"{style}<h1>Table 1</h1>{table1HTML}<h1>Table 2</h1>{table2HTML}"
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0')
